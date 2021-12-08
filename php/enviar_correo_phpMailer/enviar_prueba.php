@@ -13,7 +13,7 @@ use PHPMailer\PHPMailer\SMTP;
 require 'PHPMailer/Exception.php';
 require 'PHPMailer/PHPMailer.php';
 require 'PHPMailer/SMTP.php';
-require 'datos_cuenta.php';
+require 'datos_cuenta.php'; //aqui se hace llama a las variables $cuenta y $clave que son quienes accesan a la cuenta que enviara el correo, por razones de seguridad y privacidad el archivo no fue incluido
 
 $mail = new PHPMailer(true);
 
